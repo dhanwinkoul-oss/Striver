@@ -58,6 +58,8 @@ Below 25       - F
 80 to 100      - A
 */
 
+
+/*
 int main()
 {
     int marks;
@@ -96,5 +98,49 @@ int main()
 
     return 0;
 }
+
+*/
+
+
+#include <iostream>
+
+
+
+int main() {
+    int marks;
+
+    std:: cin >> marks;
+    if (marks < 25) {
+       std:: cout << "F";
+    }
+
+else if (marks <= 44) {
+        std:: cout << "E";
+    }
+
+
+    else if (marks <= 49) {
+       std:: cout << "D";
+    }
+
+    else if (marks <= 59) {
+       std:: cout << "C";
+    }
+
+
+    else if (marks <= 79) {
+       std:: cout << "B";
+    }
+
+
+    else if (marks <= 100) {
+       std:: cout << "A";
+    }
+
+return 0;
+}
+
+
+
 
 
