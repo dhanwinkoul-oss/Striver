@@ -101,7 +101,7 @@ int main()
 
 */
 
-
+ /*
 #include <iostream>
 
 
@@ -139,8 +139,14 @@ else if (marks <= 44) {
 
 return 0;
 }
+*/
 
 
+
+#include <iostream>
+int main(){
+    return 0;
+}
 
 
 
