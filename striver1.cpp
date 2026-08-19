@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+//#include <iostream>
+//ing namespace std;
 /*a school has following grading system take input from user 
 below 25 - F
 25 to 44 - E
@@ -45,8 +45,8 @@ return 0;
 */
 
 
-#include <iostream>
-using namespace std;
+//#include <iostream>
+//using namespace std;
 
 /*
 A school has the following grading system:
@@ -140,16 +140,40 @@ else if (marks <= 44) {
 return 0;
 }
 */
+ // string data structure 
 
 
-
-#include <iostream>
+#include <bits/stdc++.h>
+using namespace std;
 int main(){
-    return 0;
+string s = "Striver";
+cout << s[0];
+
+return 0;
 }
 
-#include <iostream>
-int main(){
-    return 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
