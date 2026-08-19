@@ -147,8 +147,11 @@ return 0;
 using namespace std;
 int main(){
 string s = "Striver";
-cout << s[0];
-
+int len = s.size();
+cout << s[len - 1];   // s.size() givesthe no of characters ie 7 
+//total charactrers in the word striver 
+// then it would print the lenght ie 7 - 1 index ie the 6th index 
+//therefore printing "r"
 return 0;
 }
 
