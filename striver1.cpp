@@ -142,7 +142,7 @@ return 0;
 */
  // string data structure 
 
-
+/*
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
@@ -150,12 +150,25 @@ string s = "Striver";
 int len = s.size();
 cout << s[len - 1];   // s.size() givesthe no of characters ie 7 
 //total charactrers in the word striver 
-// then it would print the lenght ie 7 - 1 index ie the 6th index 
+// then it would print the length ie 7 - 1th index ie the 6th index 
 //therefore printing "r"
 return 0;
 }
+*/
 
 
+
+// if we want to change some index in a string:
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+string s = "Striver";
+int len = s.size();
+s[len-1] = 'z';
+cout << s[len - 1];
+
+return 0;
+}
 
 
 
