@@ -156,9 +156,8 @@ return 0;
 }
 */
 
-
-
 // if we want to change some index in a string:
+/*
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
@@ -170,7 +169,27 @@ cout << s[len - 1];
 return 0;
 }
 
+*/
 
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main(){
+
+int i;
+for( i = 1; i <= 10; i = i + 1){
+cout << "STRIVER" <<"\n";
+}
+
+// if we print i here it will not show any output as i is only declared in for 
+//loop the other way to get the value of i as output is to declare it first  
+//and then remove the int datatype from the for loop
+cout << i << endl;
+    return 0;
+}
 
 
 
