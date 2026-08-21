@@ -29,12 +29,37 @@
 
 // take 2 num as input and print their sum : 
 
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// int sum(int num1 , int num2){
+// int num3 = num1 + num2;
+// return num3;
+
+// }
+  
+// int main(){
+
+//     int num1 , num2;
+//     cin >> num1 >> num2;
+//     int result = sum(num1 , num2);
+
+
+//     cout << "result is " << result << "\n";
+//     return 0;
+// }
+
+
+
+// now if we had don eit using void return type ::
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
-int sum(int num1 , int num2){
-int num3 = num1 + num2;
-return num3;
+void sum(int num1 , int num2){
+int num3 = num1 + num2; // x + y = z example
+cout <<  "result is " << num3;
 
 }
   
@@ -42,9 +67,8 @@ int main(){
 
     int num1 , num2;
     cin >> num1 >> num2;
-    int result = sum(num1 , num2);
+    sum(num1 , num2);
 
 
-    cout << "result is " << result << "\n";
     return 0;
 }
