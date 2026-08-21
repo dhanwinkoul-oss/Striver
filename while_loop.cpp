@@ -2,10 +2,10 @@
 using namespace std;
 
 int main(){
-    int i = 1;
+    int i = 2;
     while(i <= 5) {
 
-cout <<"Striver " << i << endl;
+cout <<"Striver " << i << endl; // i can be written at the cerntge 
 
         i = i + 1;
     }
