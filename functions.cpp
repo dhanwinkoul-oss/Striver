@@ -105,32 +105,32 @@
 
 // some more examples 
 
-#include <bits/stdc++.h>
+// #include <bits/stdc++.h>
 
 
-using namespace std;
+// using namespace std;
 
 
-void doSomething(string s){
-    s[0] = 't';
-    cout << s;
+// void doSomething(string s){
+//     s[0] = 't';
+//     cout << s << endl;
 
-}
+// }
 
 
-int main()
-{
+// int main()
+// {
     
- string s = "raj";
- doSomething(s);  // it will return the original value of s ie raj also along with the 
+//  string s = "raj";
+//  doSomething(s);  // it will return the original value of s ie raj also along with the 
  
- // changed value of s to taj  
+//  // changed value of s to taj  
  
- cout << s << endl;
+//  cout << s << endl;
 
 
-return 0;
-}
+// return 0;
+// }
 
 
 
