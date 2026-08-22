@@ -75,32 +75,61 @@
 
 // functions which dont ahve a return value but have parameters
 
+// #include <bits/stdc++.h>
+
+// using namespace std;
+
+
+
+// // this is an example of pass by value functions 
+// void doSomething(int num){
+
+//     cout << num << endl;
+//     num += 5;
+//     cout << num << endl;
+//     num += 5;
+//     cout << num << endl;
+// }
+
+
+
+// int main (){
+//     int num = 10;
+//     doSomething(num);
+//     cout << num << endl; //  it will return the value 10
+//     // in pass by value function the copy of original value is passed therefore printing 10 in this case
+//    //The function receives a copy of the argument. Changes made inside the function don't affect the original variable.
+
+//     return 0;
+// }
+
+// some more examples 
+
 #include <bits/stdc++.h>
+
 
 using namespace std;
 
 
+void doSomething(string s){
+    s[0] = 't';
+    cout << s;
 
-// this is an example of pass by value functions 
-void doSomething(int num){
-
-    cout << num << endl;
-    num += 5;
-    cout << num << endl;
-    num += 5;
-    cout << num << endl;
 }
 
 
+int main()
+{
+    
+ string s = "raj";
+ doSomething(s);  // it will return the original value of s ie raj also along with the 
+ 
+ // changed value of s to taj  
+ 
+ cout << s << endl;
 
-int main (){
-    int num = 10;
-    doSomething(num);
-    cout << num << endl; //  it will return the value 10
-    // in pass by value function the copy of original value is passed therefore printing 10 in this case
-   //The function receives a copy of the argument. Changes made inside the function don't affect the original variable.
 
-    return 0;
+return 0;
 }
 
 
