@@ -54,21 +54,58 @@
 // now if we had don eit using void return type ::
 
 
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// void sum(int num1 , int num2){
+// int num3 = num1 + num2; // x + y = z example
+// cout <<  "result is " << num3;
+
+// }
+  
+// int main(){
+
+//     int num1 , num2;
+//     cin >> num1 >> num2;
+//     sum(num1 , num2);
+
+
+//     return 0;
+// }
+
+// functions which dont ahve a return value but have parameters
+
 #include <bits/stdc++.h>
+
 using namespace std;
 
-void sum(int num1 , int num2){
-int num3 = num1 + num2; // x + y = z example
-cout <<  "result is " << num3;
 
+
+// this is an example of pass by value functions 
+void doSomething(int num){
+
+    cout << num << endl;
+    num += 5;
+    cout << num << endl;
+    num += 5;
+    cout << num << endl;
 }
-  
-int main(){
 
-    int num1 , num2;
-    cin >> num1 >> num2;
-    sum(num1 , num2);
 
+
+int main (){
+    int num = 10;
+    doSomething(num);
+    cout << num << endl; //  it will return the value 10
+    // in pass by value function the copy of original value is passed therefore printing 10 in this case
+   //The function receives a copy of the argument. Changes made inside the function don't affect the original variable.
 
     return 0;
 }
+
+
+
+
+
+
+

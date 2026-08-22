@@ -9,5 +9,5 @@ do {
     i = i + 1;
 }   while(i <= 2);// even if the cond is false the loop will execute itself atleast once
 
-    return 0; 
+    return 0;
 }
