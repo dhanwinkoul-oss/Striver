@@ -54,37 +54,70 @@
 
 // some more example 
 
+// #include <bits/stdc++.h>
+
+// using namespace std;
+
+
+// void doSomething(int &num){
+
+
+// }
+
+
+// int main (){
+
+
+
+//     int arr[5];
+//     for (int i = 0; i <= 4; i = i + 1 ){
+//      cout << i << endl;
+//        cin >> arr[i];
+//     }
+    
+//     for (int i = 0; i <= 4; i = i + 1 ){
+     
+//     cout << arr[i] << " ";
+//     }
+
+
+
+
+
+//     return 0;
+
+
+// }
+
+
+//  a better way to write this code 
+
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
 
-void doSomething(int &num){
-
-
-}
-
-
-int main (){
-
-
-
-    int arr[5];
-    for (int i = 0; i <= 4; i = i + 1 ){
-     cout << i << endl;
-       cin >> arr[i];
-    }
-
-    return 0;
-
+void doSomething(int arr[] , int n) {
+arr [0] += 100;
+cout << "value inside function :" << arr[0] << endl;
 
 }
 
 
+int main(){
+
+    int n = 7;
+    int arr [n];
+    for (int i = 0; i <= n; i = i + 1){
+    cin >> arr [i];
+}
 
 
-
-
+   doSomething(arr , n);
+   cout << "value inside int main :" << arr[0] << endl;
+   return 0;
+}
 
 
 
