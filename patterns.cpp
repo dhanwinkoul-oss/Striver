@@ -103,7 +103,7 @@
 
 
 
-// void pattern3 (int n){
+// void pattern2_a(int n){
 
 //     for (int i = n; i <= n; i--){
 
@@ -119,32 +119,57 @@
 //     int n;
 //     cin >> n;
 
-// pattern3(n);
+// pattern2_a(n);
 
 
 //     return 0;
 // }
 
 
-#include <bits/stdc++.h>
-using namespace std;
+// #include <bits/stdc++.h>
+// using namespace std;
 
-void pattern_3(int n){
-    for(int i = 0; i<n; i++){
-        for(int j = i; j<n; j++){
-            cout << "* ";
+// void pattern2_b(int n){
+//     for(int i = 0; i<n; i++){
+//         for(int j = i; j<n; j++){
+//             cout << "* ";
 
-        }
-        cout << endl;
-    }
-}
+//         }
+//         cout << endl;
+//     }
+// }
 
 
-int main(){
+// int main(){
   
-        int n;
-        cin >> n;
-        pattern_3(n);
+//         int n;
+//         cin >> n;
+//         pattern2_b(n);
     
-}
+// }
+
+
+
+
+// pattern 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
