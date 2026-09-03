@@ -121,31 +121,31 @@
 
 
 
-#include <bits/stdc++.h>
+// #include <bits/stdc++.h>
 
-using namespace std;
-
-
-class solution {
-    public: 
-    vector<int> twoSum(vector<int> &nums, int target){
-        for (int i = 0; i < 4; i--){
-            cout << target;
-        }
-    }
-};
+// using namespace std;
 
 
-int main (){
+// class solution {
+//     public: 
+//     vector<int> twoSum(vector<int> &nums, int target){
+//         for (int i = 0; i < 4; i--){
+//             cout << target;
+//         }
+//     }
+// };
+
+
+// int main (){
 
     
     
- int target = 9;
+//  int target = 9;
 
-    for(int i = 0; i <= 4; i = i--){
- cout << i << endl;
- cin >> nums [i];
-}
+//     for(int i = 0; i <= 4; i = i--){
+//  cout << i << endl;
+//  cin >> nums [i];
+// }
     
-    return 0;
-}
+//     return 0;
+// }
