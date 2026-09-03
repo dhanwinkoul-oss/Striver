@@ -29,8 +29,39 @@
 // } 
 
 
+// right angled triangle using function and test cases 
 
-// right half pyramid or (right angled triangle)
+
+// #include <bits/stdc++.h>
+// using namespace std;
+
+
+// void print2(int n) {
+//     for (int i = 0; i < n; i++){
+//         for(int j = 0; j < i; j++){
+//             cout <<  "* ";
+//         }
+//         cout << endl;
+//     }
+// }
+
+
+// int main (){
+//     int t;
+//     cin >> t;
+//     for(int i = 0; i < t; i++){
+//         int n;
+
+//         cin >> n;
+//         print2(n);
+
+//     }
+    
+// }
+
+
+// right half pyramid or (right angled triangle) for 1 case only predefined 
+
 
 
 // #include <iostream>
@@ -66,18 +97,43 @@
 
 // reversed right half pyramid or (right angled triangle)
 
-#include <bits/stdc++.h>
+// #include <bits/stdc++.h>
 
+// using namespace std;
+
+
+
+// void pattern3 (int n){
+
+//     for (int i = n; i <= n; i--){
+
+//         for(int j = n; j <= n; j--){
+//             cout << "*" << " " << endl;
+//         }
+//         cout << endl;
+//     }
+// }
+
+
+// int main(){
+//     int n;
+//     cin >> n;
+
+// pattern3(n);
+
+
+//     return 0;
+// }
+
+
+#include <bits/stdc++.h>
 using namespace std;
 
+void pattern_3(int n){
+    for(int i = 0; i<n; i++){
+        for(int j = i; j<n; j++){
+            cout << "* ";
 
-
-void pattern3 (int n){
-
-    for (int i; i <= n; i--){
-
-        for(int j; j <= i; j++){
-            cout << "*" << " " << endl;
         }
         cout << endl;
     }
@@ -85,28 +141,10 @@ void pattern3 (int n){
 
 
 int main(){
-    int n;
-    cin >> n;
-
-pattern3(n);
-
-
-    return 0;
+  
+        int n;
+        cin >> n;
+        pattern_3(n);
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
