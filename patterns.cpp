@@ -154,12 +154,54 @@
 // pattern 3
 
 
+// #include <bits/stdc++.h>
+
+// using namespace std;
+
+
+// void pattern3(int n){
+//     for (int i = 1; i <= n ; i ++ ){
+//         for (int j = 1; j <= i; j ++ ){
+//             cout << j << " ";
+//         }
+//         cout << endl;
+//     }
+// }
+
+// int main(){
+// int t;
+// cin >> t;
+// for (int i = 0; i <= t; i ++){
+//     int n;
+//     cin >> n;
+//     pattern3(n);
+// }
+// }
+
+
+
+
+// pattern 4 with test cases 
+
+
+// rules for patterns 
+
+// 1 for outer loop , count no of rows / lines 
+
+// 2 for inner loop , focus on columns and somehow connect them to the rows 
+
+// 3 print the "* " inside the inner for loop 
+
+// 4 observe symmetry (optional)
+
+
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
 
-void pattern3(int n){
+void pattern4(int n){
     for (int i = 1; i <= n ; i ++ ){
         for (int j = 1; j <= i; j ++ ){
             cout << j << " ";
@@ -174,14 +216,9 @@ cin >> t;
 for (int i = 0; i <= t; i ++){
     int n;
     cin >> n;
-    pattern3(n);
+    pattern4(n);
 }
 }
-
-
-
-
-
 
 
 
