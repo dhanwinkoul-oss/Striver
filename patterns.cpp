@@ -181,7 +181,7 @@
 
 
 
-// pattern 4 with test cases 
+
 
 
 // rules for patterns 
@@ -195,30 +195,30 @@
 // 4 observe symmetry (optional)
 
 
+// pattern 4 with test cases 
+// #include <bits/stdc++.h>
 
-#include <bits/stdc++.h>
-
-using namespace std;
+// using namespace std;
 
 
-void pattern4(int n){
-    for (int i = 1; i <= n ; i ++ ){
-        for (int j = 1; j <= i; j ++ ){
-            cout << j << " ";
-        }
-        cout << endl;
-    }
-}
+// void pattern4(int n){
+//     for (int i = 1; i <= n ; i ++ ){
+//         for (int j = 1; j <= i; j ++ ){
+//             cout << j << " ";
+//         }
+//         cout << endl;
+//     }
+// }
 
-int main(){
-int t;
-cin >> t;
-for (int i = 0; i <= t; i ++){
-    int n;
-    cin >> n;
-    pattern4(n);
-}
-}
+// int main(){
+// int t;
+// cin >> t;
+// for (int i = 0; i <= t; i ++){
+//     int n;
+//     cin >> n;
+//     pattern4(n);
+// }
+// }
 
 
 
