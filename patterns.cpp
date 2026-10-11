@@ -469,22 +469,66 @@
 
 
 // pattern 12 
+
+// #include <bits/stdc++.h>
+
+// using namespace std;
+
+
+// void pattern12(int n){
+//     int start = 1;
+//     for(int i = 0; i<n; i++){
+        
+//         if(i % 2 == 0) start = 1;
+//         else start = 0;
+//         for (int j = 0; j <= i; j++){
+//             cout << start;
+//             start = 1- start;
+//         }
+//         cout << endl;
+//     }
+// }
+// int main() {
+//     int t;
+//     cin >> t;
+//     for(int i = 0; i < t; i++){
+//         int n;
+//         cin >> n;
+//         pattern12(n);
+//     } 
+// }
+
+// pattern 13 
+
+
 #include <bits/stdc++.h>
 
 using namespace std;
 
 
-void pattern12(int n){
-    int start = 1;
-    for(int i = 0; i<n; i++){
+void pattern13(int n){
+    int space = 2 * (n-1);
+    for(int i = 1; i<=n; i++){
+        // numbers
+      for(int j = 1; j<=i; j++){
+        cout << j;
+      }
         
-        if(i % 2 == 0) start = 1;
-        else start = 0;
-        for (int j = 0; j <= i; j++){
-            cout << start;
-            start = 1- start;
-        }
-        cout << endl;
+
+        //space
+      for (int j = 1; j<=space; j++){
+        cout << " ";
+      }
+
+
+        
+        //numbers
+      for(int j = i; j >=1; j--){
+        cout << j;
+      }
+     cout << endl;
+    space -= 2;
+     
     }
 }
 int main() {
@@ -493,8 +537,6 @@ int main() {
     for(int i = 0; i < t; i++){
         int n;
         cin >> n;
-        pattern12(n);
+        pattern13(n);
     } 
 }
-
-
