@@ -640,40 +640,70 @@
 
 
 
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// void pattern17(int n){
+
+//   for(int i= 0; i<=n; i++){
+//     char ch = 'A' + i;
+//     for(int j = 0; j<=i; j++){
+//       cout << ch << " ";
+//     }
+//     cout << endl;
+//   }
+// }
+
+
+// int main() {
+//   int t;
+//   cin >> t;
+//   for (int i = 0; i<t; i++){
+//     int n;
+//     cin >> n;
+//     pattern17(n);
+//   }
+// }
+
+// pattern 18 
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
-void pattern17(int n){
-
-  for(int i= 0; i<=n; i++){
-    char ch = 'A' + i;
-    for(int j = 0; j<=i; j++){
-      cout << ch << " ";
+void pattern8(int n){
+    for (int i = 0; i<=n; i++){
+        //space
+        for(int j = 0; j < n - i + 1; j++){
+            cout << " ";
+        }
+        //characters
+        char ch = 'A';
+        int breakpoint = (2*i+1)/2;
+        for(int j = 0; j < 2 * i + 1; j++){
+            cout << ch;
+            if(j <= breakpoint) ch++;
+            else ch--;
+      
+        }
+        // space
+         for(int j = 0; j < n - i + 1; j++){
+            cout << " ";
+        }
+        cout << endl;
     }
-    cout << endl;
-  }
 }
 
+int main(){
 
-int main() {
-  int t;
-  cin >> t;
-  for (int i = 0; i<t; i++){
-    int n;
-    cin >> n;
-    pattern17(n);
-  }
+    int t;
+    cin >> t;
+    for(int i=0;i <t; i++){
+        int n;
+        cin >> n;
+        pattern8(n);
+    }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
