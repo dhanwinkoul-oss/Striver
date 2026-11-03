@@ -609,13 +609,45 @@
 
 
 
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// void pattern16(int n){
+
+//   for(int i= 0; i<=n; i++){
+//     for(char ch = 'A'; ch <= 'A' + (n - i -1);ch++){
+//       cout << ch << " ";
+//     }
+//     cout << endl;
+//   }
+// }
+
+
+// int main() {
+//   int t;
+//   cin >> t;
+//   for (int i = 0; i<t; i++){
+//     int n;
+//     cin >> n;
+//     pattern16(n);
+//   }
+// }
+
+
+
+
+//pattern 17
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
-void pattern15(int n){
+void pattern17(int n){
 
   for(int i= 0; i<=n; i++){
-    for(char ch = 'A'; ch <= 'A' + (n - i -1);ch++){
+    char ch = 'A' + i;
+    for(int j = 0; j<=i; j++){
       cout << ch << " ";
     }
     cout << endl;
@@ -629,15 +661,9 @@ int main() {
   for (int i = 0; i<t; i++){
     int n;
     cin >> n;
-    pattern15(n);
+    pattern17(n);
   }
 }
-
-
-
-
-
-
 
 
 
