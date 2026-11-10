@@ -711,29 +711,29 @@
 // pattern 19
 
 
-#include <bits/stdc++.h>
-using namespace std;
+// #include <bits/stdc++.h>
+// using namespace std;
 
-void pattern15(int n){
+// void pattern19(int n){
 
-  for(int i=0; i<=n; i++){
-    for(char ch = 'E' - i; ch <= 'E';ch++){
-      cout << ch << " ";
-    }
-    cout << endl;
-  }
-}
+//   for(int i=0; i<=n; i++){
+//     for(char ch = 'E' - i; ch <= 'E';ch++){
+//       cout << ch << " ";
+//     }
+//     cout << endl;
+//   }
+// }
 
 
-int main() {
-  int t;
-  cin >> t;
-  for (int i = 0; i<t; i++){
-    int n;
-    cin >> n;
-    pattern15(n);
-  }
-}
+// int main() {
+//   int t;
+//   cin >> t;
+//   for (int i = 0; i<t; i++){
+//     int n;
+//     cin >> n;
+//     pattern19(n);
+//   }
+// }
 
 
 
